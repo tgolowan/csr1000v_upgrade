@@ -3,6 +3,7 @@
   hosts: all
   connection: network_cli
   gather_facts: no
+  ansible_network_os: ios
 
   roles:
     - pre_check
