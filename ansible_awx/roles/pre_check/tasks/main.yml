@@ -3,6 +3,7 @@
 
 - name: gather facts before ios upgrade
   ios_facts:
+    gather_subset: all
 
 - name: current state of router
   ios_command:
