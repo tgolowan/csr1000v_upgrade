@@ -1,8 +1,8 @@
 ---
 - name: post upgrade actions
-  hosts: "{{ router }}"
+  hosts: all
   connection: network_cli
-  gather_facts: no
+  gather_facts: False
 
   roles:
     - post_check
