@@ -4,10 +4,10 @@
   connection: network_cli
   gather_facts: False
   
-  tasks:
-    - name: run the command 'show version'
-      ios_command:
-        commands: show version
+  #tasks:
+  #  - name: run the command 'show version'
+  #    ios_command:
+  #     commands: show version
 
 
   roles:
