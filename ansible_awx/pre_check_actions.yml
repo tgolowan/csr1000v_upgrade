@@ -1,6 +1,6 @@
 ---
 - name: pre upgrade actions
-  hosts: my_csr
+  hosts: "my_csr"
   connection: network_cli
   gather_facts: False
   
